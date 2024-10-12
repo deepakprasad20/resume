@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak Prasad - Software Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #0779e4;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ccc;
+            font-weight: bold;
+        }
+        .intro, .experience, .skills, .education {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0779e4;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job h3 {
+            margin-bottom: 5px;
+        }
+        .job-info {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Deepak Prasad</span> Software Engineer</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="home" class="intro">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Seeking for a Software Developer position in a fast growing organization to utilize expertise in software development and testing, as well as deployment and support using agile development methodologies. I have total 6+ years of experience as a Backend-Engineer.</p>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>SDE-2</h3>
+                <div class="job-info">Inmobi Pvt Ltd. | 06/2021 - Present | Bangalore, India</div>
+                <ul>
+                    <li>Worked solely on migration from snowflake to databricks and wrote scripts to read from parquet and write as delta file using pyspark.</li>
+                    <li>Writing ETL Jobs for various requirements and dashboard for Analysis.</li>
+                    <li>Worked on building config-service project from scratch and being part of the Architecture.</li>
+                    <li>Deployed spring boot applications on kubernetes using helm.</li>
+                    <li>Worked on different pipelining tasks using airflow and ADF.</li>
+                    <li>Handled solely multiple projects and maintained them end to end.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <div class="job-info">Wissda Consulting Pvt Ltd | 01/2021 - 06/2021 | Bangalore, India</div>
+                <ul>
+                    <li>Worked on project for scraping and image processing for different Stores and create an image for advertisement.</li>
+                    <li>Worked on JSoup and Aspose for image processing.</li>
+                    <li>Worked in supply side development team for Inmobi-china engineering team.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <div class="job-info">Beyond Square Solutions Pvt Ltd | 03/2019 - 12/2020 | Bangalore, India</div>
+                <ul>
+                    <li>Worked on Client location to OakNorth Bank.</li>
+                    <li>Worked on development team on fineract-cn for bank.</li>
+                    <li>Project was on Microservices, springboot, Java-8, with GitHub as VCS and Jenkins as CI/CD and deployed on docker.</li>
+                    <li>Worked on the development of multiple stories, Enhancement and bugs.</li>
+                    <li>Followed agile methodology for development.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Spark, DATABRICKS, Azure-Services</li>
+                <li>Airflow, Docker, Azure Data Factory</li>
+                <li>REST-API, Microservices, Spring-boot</li>
+                <li>Java, Hibernate, Kubernetes</li>
+                <li>Data Structure and Algorithm</li>
+            </ul>
+            <h3>Tools</h3>
+            <ul>
+                <li>Postman, IntelliJ, Maven, Gradle, GIT</li>
+            </ul>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <h3>B-tech (W.B.U.T)</h3>
+            <p>Dr. B.C Roy Engineering College | 07/2014 - 05/2018 | Durgapur, India</p>
+            <p>Completed graduation in computer science and engineering with a DGPA-8.02</p>
+            <h3>Higher Secondary (C.B.S.E)</h3>
+            <p>Ishan International Public School | 04/2012 - 03/2014 | Patna, Bihar</p>
+            <p>Completed higher secondary with physics, chemistry and maths with 84.6%</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: deepakprasad20@live.com</p>
+            <p>Phone: 8918706989</p>
+            <p>Location: Bangalore, India</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/deepak-prasad-428088148" target="_blank">linkedin.com/in/deepak-prasad-428088148</a></p>
+            <p>GitHub: <a href="https://github.com/deepakprasad20" target="_blank">github.com/deepakprasad20</a></p>
+            <p>Stack Overflow: <a href="https://stackoverflow.com/users/11663774/deepak-prasad" target="_blank">stackoverflow.com/users/11663774/deepak-prasad</a></p>
+        </section>
+    </div>
+</body>
+</html>
